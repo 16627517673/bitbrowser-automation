@@ -173,8 +173,8 @@ See [docs/](./docs/) directory for complete technical documentation:
 ## ☕ Sponsor
 
 <p align="center">
-  <img src="zanshang.jpg" alt="WeChat" width="300" />
-  <img src="QQ.jpg" alt="QQ" width="300" />
+  <img src="zhanzhu_wx.jpg" alt="WeChat" width="300" />
+  <img src="zhanzhu_zfb.jpg" alt="Alipay" width="300" />
 </p>
 
 ---

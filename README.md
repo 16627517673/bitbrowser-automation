@@ -175,8 +175,8 @@ http://user:pass@host:port
 ## ☕ 赞助 / Sponsor
 
 <p align="center">
-  <img src="zanshang.jpg" alt="微信赞赏" width="300" />
-  <img src="QQ.jpg" alt="QQ" width="300" />
+  <img src="zhanzhu_wx.jpg" alt="微信" width="300" />
+  <img src="zhanzhu_zfb.jpg" alt="支付宝" width="300" />
 </p>
 
 ---
