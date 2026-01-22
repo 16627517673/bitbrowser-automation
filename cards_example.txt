@@ -1,0 +1,26 @@
+# ============================================
+# 虚拟卡信息配置文件 / Virtual Card Configuration
+# ============================================
+#
+# 格式说明 / Format:
+# 卡号 月份 年份 CVV (空格分隔)
+# Card_Number Month Year CVV (Space separated)
+#
+# 示例 / Examples:
+# 5481087170529907 01 32 536
+# 5481087143137903 12 28 749
+#
+# 字段说明 / Field Description:
+# - 卡号: 13-19位数字 / Card Number: 13-19 digits
+# - 月份: 01-12 (两位数) / Month: 01-12 (2 digits)
+# - 年份: 年份后两位，如2032年填32 / Year: Last 2 digits, e.g., 32 for 2032
+# - CVV: 3-4位安全码 / CVV: 3-4 digit security code
+#
+# 注意事项 / Notes:
+# 1. 每行一张卡 / One card per line
+# 2. 以 # 开头的行为注释 / Lines starting with # are comments
+# 3. 空行会被忽略 / Empty lines are ignored
+# 4. 请勿提交真实卡号到 Git / Do NOT commit real card numbers to Git
+#
+# ============================================
+

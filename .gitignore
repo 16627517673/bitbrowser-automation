@@ -1,0 +1,89 @@
+# Exclude configuration files with sensitive data
+accounts.txt
+proxies.txt
+cards.txt
+sheerIDlink.txt
+无资格号.txt
+已绑卡号.txt
+已验证未绑卡.txt
+有资格待验证号.txt
+超时或其他错误.txt
+sheerID_verified_failed.txt
+sheerID_verified_success.txt
+2fa_codes.txt
+new_2fa_secrets.txt
+绑定卡链接.txt
+sheerid_tool/
+
+# Keep example files
+!accounts_example.txt
+!cards_example.txt
+
+# Exclude database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Exclude log files
+*.log
+
+# Exclude debug/test files
+debug_*.html
+step*.png
+error*.png
+
+# Exclude all images by default
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.ico
+
+# Exception: Keep specific community images
+!Telegram.jpg
+!Telegram.png
+!QQ.jpg
+!zanshang.jpg
+
+# Exclude build artifacts and temp files
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+temp_config.json
+temp_icon.png
+
+# Exclude IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Exclude virtual env
+venv/
+env/
+.venv/
+.env/
+
+# Exclude environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Exclude Node.js dependencies and build
+node_modules/
+web/frontend/dist/
+web/frontend/.vite/
+web/frontend/.turbo/
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+desktop.ini

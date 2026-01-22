@@ -1,0 +1,20 @@
+[project]
+name = "auto-bitbrowser"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "cairosvg>=2.8.2",
+    "deep-translator>=1.11.4",
+    "fastapi>=0.111.0",
+    "pillow>=12.1.0",
+    "playwright>=1.57.0",
+    "pyotp>=2.9.0",
+    "pyqt6>=6.10.2",
+    "reportlab>=4.4.9",
+    "requests>=2.32.5",
+    "selenium>=4.39.0",
+    "svglib>=1.6.0",
+    "uvicorn>=0.30.0",
+    "websockets>=12.0",
+]

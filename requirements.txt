@@ -1,0 +1,8 @@
+PyQt6
+playwright
+requests
+pyotp
+svglib
+reportlab
+Pillow
+cairosvg
